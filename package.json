@@ -3,23 +3,25 @@
   "version": "1.0.0",
   "description": "Remark plugin to generate a toc based on h tags and spit the output back using callbacks",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jaredk3nt/remark-outer-toc.git"
-  },
+  "type": "module",
+  "types": "src/index.d.ts",
+  "repository": "https://github.com/Jaredk3nt/remark-outer-toc.git",
+  "homepage": "https://github.com/Jaredk3nt/remark-outer-toc#readme",
+  "author": "Jared K Jones <jkjones.dev@gmail.com> (https://danggoodcode.com/)",
+  "contributors": [
+    "Jason Lam <jasonlamv-t@hotmail.com> (https://jasonlam.cc)"
+  ],
+  "license": "ISC",
   "keywords": [
     "remark",
     "markdown",
     "toc",
     "menu"
   ],
-  "author": "Jared K Jones",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jaredk3nt/remark-outer-toc/issues"
   },
-  "homepage": "https://github.com/Jaredk3nt/remark-outer-toc#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
