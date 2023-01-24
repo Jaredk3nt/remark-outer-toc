@@ -6,13 +6,13 @@ I came across the problem needing to get the output of generating a toc out of R
 ### Usage
 
 ```js
-const slug = require('remark-slug');
-const outsideToc = require('remark-outside-toc');
+import slug from 'remark-slug'
+import outerToc from 'remark-outer-toc'
 
 const md = remark()
     .use(slug)
-    .use(outsideToc, {
-        callback: (headers) => { console.log(headers) },
+    .use(outerToc, {
+        callback: (toc) => { console.log(toc) },
         id: true,
         depth: 3
     })
